@@ -27,6 +27,7 @@
    font-weight: bold;
    
 }
+
 @media only screen and (max-width: 600px) {
     #logo {
         padding-right: 70vw;
@@ -38,4 +39,7 @@
     #navbar {
         display: none;
     }
+    /* #about-image{
+        display: none;
+    } */
 }
