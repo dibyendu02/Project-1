@@ -27,10 +27,23 @@
    font-weight: bold;
    
 }
+#logo{
+    width: 20%;
+}
+#menu-icon{
+    display: none;
+}
+#footer-logo{
+    width: 50%;
+}
+#map {
+    
+    width: 50%; /* The width is the width of the web page */
+  }
 
 @media only screen and (max-width: 600px) {
     #logo {
-        padding-right: 70vw;
+        width: 30%;
     }
     #text{
         font-size: 23px;
@@ -38,6 +51,12 @@
 
     #navbar {
         display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    #footer-logo{
+        width: 80%;
     }
     /* #about-image{
         display: none;
