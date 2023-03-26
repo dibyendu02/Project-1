@@ -5,3 +5,4 @@ var el = document.getElementById('text');
 str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running); 
 var running = setTimeout(animate, 90);
 })();
+
