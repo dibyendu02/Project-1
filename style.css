@@ -1,11 +1,11 @@
-body
+/* body
 {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}
+} */
 .link-underline {
     border-bottom-width: 0;
     background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
@@ -15,13 +15,15 @@ body
     transition: background-size .5s ease-in-out;
 }
 /* #navbar-top{
-    position: absolute;
+    overflow-x: hidden;
     
 }
 #navbar-panel{
-    position: relative;
-    top: 50px;
+    overflow-x: hidden;
 } */
+#hero-section{
+    overflow-x: hidden;
+}
 #circle {
     position: absolute;
     bottom: 200px; 
@@ -66,6 +68,12 @@ body
     
     width: 50%; /* The width is the width of the web page */
   }
+
+#footer{
+    /* background-color: #50c9ba; */
+    background-color: #4ba2ac;
+}
+
 
 @media only screen and (max-width: 600px) {
     #logo {
