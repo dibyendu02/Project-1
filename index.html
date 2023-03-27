@@ -18,13 +18,12 @@
 
     <!-- navbar top -->
 
-    <section id="navbar-top" class="w-full bg-teal-300 py-1 md:py-3">
+    <section id="navbar-top" class="w-full py-1 bg-teal-300 md:py-3">
         <div
-        class="container flex justify-center flex-col items-center content-center leading-6 text-black border-0 border-gray-300 border-solid md:flex-row lg:px-10" 
-        >
+            class="container flex justify-center flex-row flex-wrap items-center content-center  text-black border-0 border-gray-300 border-solid md:flex-row lg:px-10 text-sm">
 
             <a href="#" class="inline-flex mx-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-3 h-3 mr-2 mt-1">
                     <path fill-rule="evenodd"
                         d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
                         clip-rule="evenodd" />
@@ -34,7 +33,7 @@
             </a>
             <a href="tel:99999 99999" class="inline-flex mx-3">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                    class="w-5 h-5 mr-2 mt-1">
+                    class="w-3 h-3 mr-2 mt-1">
                     <path fill-rule="evenodd"
                         d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z"
                         clip-rule="evenodd" />
@@ -43,7 +42,7 @@
             </a>
             <a href="mailto:hello@gmail.com" class="inline-flex mx-3">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                    class="w-5 h-5 mr-2 mt-1">
+                    class="w-3 h-3 mr-2 mt-1">
                     <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
                     <path
                         d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
@@ -57,7 +56,7 @@
     <!-- navbar -->
 
     <section id="navbar-panel" class="w-full ">
-        <div class="container flex flex-row items-center justify-between py-2 md:px-20  md:flex-row  ">
+        <!-- <div class="container flex flex-row items-center justify-between py-2 md:px-20  md:flex-row  ">
 
             <a href="#_" id="logo"
                 class=" flex justify-start items-center  font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
@@ -96,7 +95,80 @@
                     </div>
                 </button>
             </nav>
-        </div>
+
+            
+
+
+        </div> -->
+
+        <!-- Navbar goes here -->
+        <nav class="bg-white shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+                
+                    <div class="flex justify-between space-x-7">
+                        <div>
+                            <!-- Website Logo -->
+                            <a href="#" class="flex items-center py-4 px-2">
+                                <img src="./assets/logo-black.png" alt="Logo" class="w-10  mr-2">
+
+                            </a>
+                        </div>
+                        <!-- Primary Navbar items -->
+                        <nav id="navbar"
+                            class="flex flex-wrap items-center mb-5 text-base text-black md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
+                            <a href="#_"
+                                class="mr-5 font-medium leading-6 link-underline hover:text-gray-400 link-underline-black">Home</a>
+                            <a href="pages/aboutUs.html"
+                                class="mr-5 font-medium leading-6 link-underline hover:text-gray-400 link-underline-black">About
+                                Us</a>
+                            <a href="pages/services.html"
+                                class="mr-5 font-medium leading-6 link-underline hover:text-gray-400 link-underline-black">Service</a>
+                            <a href="pages/price.html"
+                                class="mr-5 font-medium leading-6 link-underline hover:text-gray-400 link-underline-black">Price</a>
+                            <a href="pages/contactUs.html"
+                                class="mr-5 font-medium leading-6 link-underline hover:text-gray-400 link-underline-black">Contact
+                                Us</a>
+                        </nav>
+
+                        <!-- Mobile menu button -->
+                        <div class="md:hidden flex items-center">
+                            <button class="outline-none mobile-menu-button">
+                                <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                   
+                
+            </div>
+            <!-- mobile menu -->
+            <div class="hidden mobile-menu">
+                <ul class="">
+                    <li class="active"><a href="index.html"
+                            class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+                    <li><a href="#services"
+                            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About Us</a></li>
+                    <li><a href="#about"
+                            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+                    <li><a href="#contact"
+                            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Price</a>
+                            <li><a href="#services"
+                                class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</a></li>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                const btn = document.querySelector("button.mobile-menu-button");
+                const menu = document.querySelector(".mobile-menu");
+
+                btn.addEventListener("click", () => {
+                    menu.classList.toggle("hidden");
+                });
+            </script>
+        </nav>
 
     </section>
 
@@ -105,7 +177,7 @@
         <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
             <div class="flex flex-wrap items-center sm:-mx-3">
 
-                <div class=" w-full mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0">
+                <div class=" w-full  lg:w-1/2 order-0 lg:order-1 lg:mb-0">
                     <div id="circle" class="bg-teal-900"></div>
 
                     <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_4rq0nvpt.json"
@@ -147,8 +219,7 @@
             class=" box-border flex flex-col py-10 md:py-0 items-center content-center    leading-6 text-black border-0 border-gray-300 border-solid md:flex-row  lg:px-10">
 
             <div id="about-image"
-                class="box-border relative w-full md:px-4  md:my-5 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10"
-                >
+                class="box-border relative w-full md:px-4  md:my-5 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
 
                 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_wg0utmug.json"
                     background="transparent" speed="1" style="width: 400px; height: 400px;" loop
@@ -157,7 +228,7 @@
 
             <!-- Content -->
             <div class="box-border order-first w-full px-10 md:px-0  border-solid md:w-1/2 md:pl-10 md:order-none"
-            data-aos="fade-in">
+                data-aos="fade-in">
                 <h1 class="flex justify-center mb-5 text-black font-bold text-3xl  border-0  lg:text-3xl md:text-3xl">
                     About Us
                 </h1>
@@ -299,8 +370,7 @@
     <section class="mb-32 text-gray-800 text-center">
         <div class="px-16 bg-white">
             <div class=" container flex flex-col items-start mx-auto lg:items-center">
-                <h2
-                    class="relative flex items-start justify-center w-full mb-20 max-w-3xl text-5xl font-bold ">
+                <h2 class="relative flex items-start justify-center w-full mb-20 max-w-3xl text-5xl font-bold ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                         class="absolute right-0 hidden w-12 h-12 -mt-2 -mr-16 text-gray-200 lg:inline-block"
                         viewBox="0 0 975.036 975.036">
@@ -310,88 +380,75 @@
                     </svg>
                     statistics
                 </h2>
-                
+
 
                 <div class="grid lg:gap-x-12 lg:grid-cols-3" data-aos="fade-out">
                     <div class="mb-12 lg:mb-0">
-                      <div class="rounded-lg shadow-lg h-full block bg-white">
-                        <div class="flex justify-center">
-                          <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
-                            <svg
-                              class="w-7 h-7 text-white"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 512 512"
-                            >
-                              <path
-                                fill="currentColor"
-                                d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z"
-                              ></path>
-                            </svg>
-                          </div>
+                        <div class="rounded-lg shadow-lg h-full block bg-white">
+                            <div class="flex justify-center">
+                                <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
+                                    <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M488.6 250.2L392 214V105.5c0-15-9.3-28.4-23.4-33.7l-100-37.5c-8.1-3.1-17.1-3.1-25.3 0l-100 37.5c-14.1 5.3-23.4 18.7-23.4 33.7V214l-96.6 36.2C9.3 255.5 0 268.9 0 283.9V394c0 13.6 7.7 26.1 19.9 32.2l100 50c10.1 5.1 22.1 5.1 32.2 0l103.9-52 103.9 52c10.1 5.1 22.1 5.1 32.2 0l100-50c12.2-6.1 19.9-18.6 19.9-32.2V283.9c0-15-9.3-28.4-23.4-33.7zM358 214.8l-85 31.9v-68.2l85-37v73.3zM154 104.1l102-38.2 102 38.2v.6l-102 41.4-102-41.4v-.6zm84 291.1l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6zm240 112l-85 42.5v-79.1l85-38.8v75.4zm0-112l-102 41.4-102-41.4v-.6l102-38.2 102 38.2v.6z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-blue-600 mb-4">1000</h3>
+                                <h5 class="text-lg font-medium mb-4">Components</h5>
+                                <p class="text-gray-500">
+                                    Laudantium totam quas cumque pariatur at doloremque hic quos quia eius
+                                </p>
+                            </div>
                         </div>
-                        <div class="p-6">
-                          <h3 class="text-2xl font-bold text-blue-600 mb-4">1000</h3>
-                          <h5 class="text-lg font-medium mb-4">Components</h5>
-                          <p class="text-gray-500">
-                            Laudantium totam quas cumque pariatur at doloremque hic quos quia eius
-                          </p>
-                        </div>
-                      </div>
                     </div>
-              
+
                     <div class="mb-12 lg:mb-0" data-aos="fade-out">
-                      <div class="rounded-lg shadow-lg h-full block bg-white">
-                        <div class="flex justify-center">
-                          <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
-                            <svg
-                              class="w-7 h-7 text-white"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 544 512"
-                            >
-                              <path
-                                fill="currentColor"
-                                d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z"
-                              ></path>
-                            </svg>
-                          </div>
+                        <div class="rounded-lg shadow-lg h-full block bg-white">
+                            <div class="flex justify-center">
+                                <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
+                                    <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 544 512">
+                                        <path fill="currentColor"
+                                            d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-blue-600 mb-4">70%</h3>
+                                <h5 class="text-lg font-medium mb-4">Growth</h5>
+                                <p class="text-gray-500">
+                                    Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
+                                </p>
+                            </div>
                         </div>
-                        <div class="p-6">
-                          <h3 class="text-2xl font-bold text-blue-600 mb-4">70%</h3>
-                          <h5 class="text-lg font-medium mb-4">Growth</h5>
-                          <p class="text-gray-500">
-                            Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
-                          </p>
-                        </div>
-                      </div>
                     </div>
-              
+
                     <div class="" data-aos="fade-out">
-                      <div class="rounded-lg shadow-lg h-full block bg-white">
-                        <div class="flex justify-center">
-                          <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
-                            <svg
-                              class="w-7 h-7 text-white"
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 640 512"
-                            >
-                              <path
-                                fill="currentColor"
-                                d="M512.1 191l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0L552 6.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zm-10.5-58.8c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.7-82.4 14.3-52.8 52.8zM386.3 286.1l33.7 16.8c10.1 5.8 14.5 18.1 10.5 29.1-8.9 24.2-26.4 46.4-42.6 65.8-7.4 8.9-20.2 11.1-30.3 5.3l-29.1-16.8c-16 13.7-34.6 24.6-54.9 31.7v33.6c0 11.6-8.3 21.6-19.7 23.6-24.6 4.2-50.4 4.4-75.9 0-11.5-2-20-11.9-20-23.6V418c-20.3-7.2-38.9-18-54.9-31.7L74 403c-10 5.8-22.9 3.6-30.3-5.3-16.2-19.4-33.3-41.6-42.2-65.7-4-10.9.4-23.2 10.5-29.1l33.3-16.8c-3.9-20.9-3.9-42.4 0-63.4L12 205.8c-10.1-5.8-14.6-18.1-10.5-29 8.9-24.2 26-46.4 42.2-65.8 7.4-8.9 20.2-11.1 30.3-5.3l29.1 16.8c16-13.7 34.6-24.6 54.9-31.7V57.1c0-11.5 8.2-21.5 19.6-23.5 24.6-4.2 50.5-4.4 76-.1 11.5 2 20 11.9 20 23.6v33.6c20.3 7.2 38.9 18 54.9 31.7l29.1-16.8c10-5.8 22.9-3.6 30.3 5.3 16.2 19.4 33.2 41.6 42.1 65.8 4 10.9.1 23.2-10 29.1l-33.7 16.8c3.9 21 3.9 42.5 0 63.5zm-117.6 21.1c59.2-77-28.7-164.9-105.7-105.7-59.2 77 28.7 164.9 105.7 105.7zm243.4 182.7l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0l8.2-14.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zM501.6 431c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.6-82.4 14.3-52.8 52.8z"
-                              />
-                            </svg>
-                          </div>
+                        <div class="rounded-lg shadow-lg h-full block bg-white">
+                            <div class="flex justify-center">
+                                <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
+                                    <svg class="w-7 h-7 text-white" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 640 512">
+                                        <path fill="currentColor"
+                                            d="M512.1 191l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0L552 6.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zm-10.5-58.8c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.7-82.4 14.3-52.8 52.8zM386.3 286.1l33.7 16.8c10.1 5.8 14.5 18.1 10.5 29.1-8.9 24.2-26.4 46.4-42.6 65.8-7.4 8.9-20.2 11.1-30.3 5.3l-29.1-16.8c-16 13.7-34.6 24.6-54.9 31.7v33.6c0 11.6-8.3 21.6-19.7 23.6-24.6 4.2-50.4 4.4-75.9 0-11.5-2-20-11.9-20-23.6V418c-20.3-7.2-38.9-18-54.9-31.7L74 403c-10 5.8-22.9 3.6-30.3-5.3-16.2-19.4-33.3-41.6-42.2-65.7-4-10.9.4-23.2 10.5-29.1l33.3-16.8c-3.9-20.9-3.9-42.4 0-63.4L12 205.8c-10.1-5.8-14.6-18.1-10.5-29 8.9-24.2 26-46.4 42.2-65.8 7.4-8.9 20.2-11.1 30.3-5.3l29.1 16.8c16-13.7 34.6-24.6 54.9-31.7V57.1c0-11.5 8.2-21.5 19.6-23.5 24.6-4.2 50.5-4.4 76-.1 11.5 2 20 11.9 20 23.6v33.6c20.3 7.2 38.9 18 54.9 31.7l29.1-16.8c10-5.8 22.9-3.6 30.3 5.3 16.2 19.4 33.2 41.6 42.1 65.8 4 10.9.1 23.2-10 29.1l-33.7 16.8c3.9 21 3.9 42.5 0 63.5zm-117.6 21.1c59.2-77-28.7-164.9-105.7-105.7-59.2 77 28.7 164.9 105.7 105.7zm243.4 182.7l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0l8.2-14.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zM501.6 431c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.6-82.4 14.3-52.8 52.8z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-blue-600 mb-4">49</h3>
+                                <h5 class="text-lg font-medium mb-4">Projects</h5>
+                                <p class="text-gray-500">
+                                    Cupiditate enim, minus nulla dolor cumque iure eveniet facere ullam
+                                </p>
+                            </div>
                         </div>
-                        <div class="p-6">
-                          <h3 class="text-2xl font-bold text-blue-600 mb-4">49</h3>
-                          <h5 class="text-lg font-medium mb-4">Projects</h5>
-                          <p class="text-gray-500">
-                            Cupiditate enim, minus nulla dolor cumque iure eveniet facere ullam
-                          </p>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-        </div>
+                </div>
+            </div>
     </section>
 
     <!-- Testimonial -->
@@ -450,7 +507,8 @@
                             easier.
                             Thanks for making such a great product."</blockquote>
                     </div>
-                    <div data-aos="fade-right" class="bg-gray-200 p-5 rounded flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
+                    <div data-aos="fade-right"
+                        class="bg-gray-200 p-5 rounded flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
                         <div class="flex items-center justify-center">
                             <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
                                 <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80"
