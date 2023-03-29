@@ -25,6 +25,7 @@
     overflow-x: hidden;
 }
 #circle {
+    z-index: -1;
     position: absolute;
     bottom: 200px; 
     right: 1000px;
@@ -32,6 +33,10 @@
     width: 600px;
     height: 600px;
     border-radius: 50%;
+}
+
+#about-image{
+    height: 400px; width: 400px;
 }
 
 .link-underline-black {
@@ -91,8 +96,11 @@
     #footer-logo{
         width: 80%;
     }
-    .circle{
+    #circle{
         display: none;
+    }
+    #about-image{
+        height: 300px; width: 300px;
     }
     /* #about-image{
         display: none;
